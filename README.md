@@ -1,16 +1,17 @@
 
 ## Multi-Stream-File-Transfer
-This is a multistream file transfer program written in cpp using socket interface.<br>
-It was written by me in Nov 2015 as a part of mini-networks project<br>
-The purpose of this program is to tranfer a file in multiple fragments (all in parallel) from one local computer to another connected over internet or intranet.
+
+* This is a multistream file transfer program written in cpp using socket interface.
+* It was written by me in Nov 2015 as a part of mini-networks project.
+* The purpose of this program is to tranfer a file in multiple fragments (all in parallel) from one local computer to another connected over internet or intranet.
 
 ## Abstract
 
-File can be transfered from one computer to another over the network using socket interface.<br>
-At the senders end file is divided into equal fragments and all fragments are sent in parallel. <br>
-At the receivers end every received fragment is stored in a separate file and after the file transfer is complete all the fragments are merged into single file. <br>
-All the fragments have .temp extension and can be found in hidden directory " .filetransfer ". <br>
-Fragments are not deleted for demonstration purpose. <br>
+* File can be transfered from one computer to another over the network using socket interface.
+* At the senders end file is divided into equal fragments and all fragments are sent in parallel.
+* At the receivers end every received fragment is stored in a separate file and after the file transfer is complete all the fragments are merged into single file.
+* All the fragments have .temp extension and can be found in hidden directory " .filetransfer ". 
+* Fragments are not deleted for demonstration purpose.
 
 ## Installation
 
@@ -46,3 +47,4 @@ To transfer a file from LINUX to another LINUX computer follow these steps <br>
 
 ## LISCENSE
 
+https://github.com/manuchandel/Multi-Stream-File-Transfer/blob/master/LISCENCE.md
