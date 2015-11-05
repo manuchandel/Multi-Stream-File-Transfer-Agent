@@ -35,16 +35,18 @@ To transfer a file from LINUX to another LINUX computer follow these steps <br>
 
 ## Constants & Variables
 
-* PORT  denotes port number for server and client both.
-* HOST  denotes ipV4 address of server (sender).
-* NEW_FILE  denotes name by which file will be downloaded at recivers end.
-* TEMP_DIR  denotes directory where file fragments are downloaded (do not change recommended).
-* TEMP_FILE  denotes names of file fragments sequentially (do not change recommended).
-* MAX_STREAMS  denotes maximum parallel connections to be made to the sender to download file. Also denotes number of fragments in which file will be downloaded.
-* SECONDS_TO_WAIT  denotes integer seconds receiver should wait before starting to receive download header for slower connections typically less than 20kB/s value should be greater than 5.
-* FILE_NAME_LENGTH  Mmx characters in name of file
-* MAX_BYTES  maximum size of buffer used for reading bytes from sockets
+* __PORT__              denotes port number for server and client both.
+* __HOST__              denotes ipV4 address of server (sender).
+* __NEW_FILE__          denotes name by which file will be downloaded at recivers end.
+* __TEMP_DIR__          denotes directory where file fragments are downloaded (do not change recommended).
+* __TEMP_FILE__         denotes names of file fragments sequentially (do not change recommended).
+* __MAX_STREAMS__       denotes maximum parallel connections to be made to the sender to download file. Also denotes number of fragments in which file will be downloaded.
+* __SECONDS_TO_WAIT__   denotes integer seconds receiver should wait before starting to receive download header for slower connections typically less than 20kB/s value should be greater than 5.
+* __FILE_NAME_LENGTH__  maximum characters in file name.
+* __MAX_BYTES__         maximum size of buffer used for reading bytes from sockets.
 
-## LISCENSE
+## LICENSE
 
-https://github.com/manuchandel/Multi-Stream-File-Transfer/blob/master/LISCENCE.md
+##### MIT LICENSE
+
+https://github.com/manuchandel/Multi-Stream-File-Transfer/blob/master/LICENSE.md
