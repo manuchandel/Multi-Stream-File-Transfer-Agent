@@ -1,5 +1,5 @@
 
-## Multi-Stream-File-Transfer
+## Multi-Stream-File-Transfer-Agent
 
 * This is a multistream file transfer program written in cpp using socket interface.
 * It was written by me in Nov 2015 as a part of mini-networks project.
