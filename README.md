@@ -5,7 +5,7 @@
 * It was written by me in Nov 2015 as a part of mini-networks project.
 * The purpose of this program is to tranfer a file in multiple fragments (all in parallel) from one local computer to another connected over internet or intranet.
 * This project was successfully tested working on Ubuntu 14.04.
-* For better understanding checkout [Blog on this project](http://www.manuchandel.com/2015/11/04/multistreamFileTransfer.html)
+* For better understanding checkout [Blog on this project](http://www.manuchandel.com/project/2015/11/04/multistreamFileTransfer.html)
 
 ## Abstract
 
